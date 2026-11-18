@@ -5,6 +5,12 @@
 #
 # Normal rules (sorted alphabetically)
 #
+tmp/
+del/
+old/
+new/
+
+#
 .*
 *.a
 *.asn1.[ch]
