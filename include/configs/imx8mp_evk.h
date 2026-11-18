@@ -283,3 +283,13 @@
 #endif
 
 #endif
+
+#undef CONFIG_BOOTCOMMAND
+#define CONFIG_BOOTCOMMAND \
+    "fatload mmc 1:1 0x50000000 kernel.itb; " \
+    "imxtract 0x50000000 bootscr 0x44000000; " \
+    "source 0x44000000"
+
+#define CONFIG_SYS_BOOTM_LEN 0x8000000
+
+/* End of File */
