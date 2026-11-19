@@ -1,4 +1,10 @@
- # SPDX-License-Identifier: GPL-2.0+
+Note:
+=====
+
+This repository is a fork of https://github.com/nxp-imx/uboot-imx for specific modifications.
+Please refer to the upstream uboot-imx repository https://github.com/nxp-imx/uboot-imx for the latest version and upstream updates.
+
+# SPDX-License-Identifier: GPL-2.0+
 #
 # (C) Copyright 2000 - 2013
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.
